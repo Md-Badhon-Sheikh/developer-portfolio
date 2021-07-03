@@ -5,8 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 40px;
+}
+.flexble-container{
     display: flex;
+    margin-bottom: 120px;
+}
+p{
+    text-align: justify;
 }
 .orange-color{
     color: orange;
@@ -15,8 +22,13 @@ section{
     width: 50%;
     padding-left: 2%;
 }
+#badhon-world{
+    padding: 20px 20px 10px 80px ;
+}
 .half-width img{
-    width: 80%;
+    width: 85%;
+    margin-left: 40px;
+    margin-top: 25px;
 }
 .link-button{
     text-decoration: none;
@@ -25,8 +37,44 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    margin-top: 25px;
 }
 .banner-top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 35px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-list{
+    width: 40%;
+    margin-right: 5%;
+    
+    padding: 20px 25px 70px ;
+    box-shadow: 10px 10px 40px gray;
+}
+#web-developer-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+#full-stack-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    margin-left: 50px;
+}
+footer p{
+    text-align: center;
+    font-weight: 300;
+    color: rgb(87, 94, 87);
 }
